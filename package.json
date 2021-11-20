@@ -1,0 +1,25 @@
+{
+  "name": "rollup-starter",
+  "version": "1.0.0",
+  "description": "rollup typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuyingbin1922/rollup-starter.git"
+  },
+  "keywords": [
+    "rollup"
+  ],
+  "author": "liuyingbin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuyingbin1922/rollup-starter/issues"
+  },
+  "homepage": "https://github.com/liuyingbin1922/rollup-starter#readme",
+  "devDependencies": {
+    "rollup": "^2.60.0"
+  }
+}
