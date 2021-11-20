@@ -1,7 +1,7 @@
 # rollup-starter
 
-<p>
-    <img src="https://si.geilicdn.com/img-21bc0000017d3c38ede80a20e273-unadjust_889_800.png">
+<p style="text-align:center">
+    <img src="https://si.geilicdn.com/img-1ede0000017d3c3cf95e0a20e2c5-unadjust_249_250.png">
 </p>
 
 初始化造轮子的rollup打包工具，打造一款开箱即用的造轮子基础设施。**Vue3** 已经通过ts 进行了重构，所以使用ts打造轮子可以看作是一种趋势了，那么对应的造轮子的基础设施也是不可少的。因为笔者利用空余时间打造写ts轮子的打包工程。
