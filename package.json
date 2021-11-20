@@ -44,6 +44,6 @@
     "transform-vue-js": "0.0.3"
   },
   "lint-staged": {
-    "*.{ts}": ""
+    "/src/main.ts": "prettier --write"
   }
 }
