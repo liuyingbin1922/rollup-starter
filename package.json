@@ -2,9 +2,11 @@
   "name": "rollup-starter",
   "version": "1.0.0",
   "description": "rollup typescript",
-  "main": "index.js",
+  "main": "./lib/bundle.cjs.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "build:types": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,19 @@
   },
   "homepage": "https://github.com/liuyingbin1922/rollup-starter#readme",
   "devDependencies": {
-    "rollup": "^2.60.0"
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.2.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "rollup": "^2.60.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "transform-vue-js": "0.0.3"
   }
 }
